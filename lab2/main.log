@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.8)  30 JAN 2025 17:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.8)  30 JAN 2025 17:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -496,11 +496,11 @@ Package biblatex Info: Reference segment=0 on input line 9.
 [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<Diagram.png, id=7, 3035.34pt x 4047.12pt>
+<Diagram.png, id=7, 387.4475pt x 209.78375pt>
 File: Diagram.png Graphic file (type png)
 <use Diagram.png>
 Package pdftex.def Info: Diagram.png  used on input line 41.
-(pdftex.def)             Requested size: 94.4048pt x 125.85464pt.
+(pdftex.def)             Requested size: 354.02342pt x 191.68774pt.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 53.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -518,7 +518,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--82
 
  []
 
-<Lab 2 Graph.png, id=16, 582.175pt x 360.34625pt>
+<Lab 2 Graph.png, id=18, 582.175pt x 360.34625pt>
 File: Lab 2 Graph.png Graphic file (type png)
 <use Lab 2 Graph.png>
 Package pdftex.def Info: Lab 2 Graph.png  used on input line 90.
@@ -555,9 +555,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  66i,10n,81p,737b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (4 pages, 13670475 bytes).
+Output written on main.pdf (4 pages, 165271 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
+ 72 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
