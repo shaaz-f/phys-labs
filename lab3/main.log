@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.3)  10 FEB 2025 18:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.3)  10 FEB 2025 18:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -199,26 +199,32 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 [1
 
 {/Users/shaaz/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<Graph.png, id=7, 3656.66125pt x 2598.70876pt>
+File: Graph.png Graphic file (type png)
+<use Graph.png>
+Package pdftex.def Info: Graph.png  used on input line 37.
+(pdftex.def)             Requested size: 354.02342pt x 251.55896pt.
 
-[1] (./main.aux)
+
+[1 <./Graph.png>] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2736 strings out of 475172
- 40430 string characters out of 5765286
- 428404 words of memory out of 5000000
- 25748 multiletter control sequences out of 15000+600000
+ 2746 strings out of 475172
+ 40610 string characters out of 5765286
+ 428426 words of memory out of 5000000
+ 25758 multiletter control sequences out of 15000+600000
  559741 words of font info for 39 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 57i,5n,65p,280b,125s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,6n,65p,546b,237s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on main.pdf (2 pages, 30587 bytes).
+Output written on main.pdf (2 pages, 9761367 bytes).
 PDF statistics:
- 21 PDF objects out of 1000 (max. 8388607)
+ 22 PDF objects out of 1000 (max. 8388607)
  12 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
