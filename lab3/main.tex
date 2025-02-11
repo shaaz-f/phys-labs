@@ -3,8 +3,12 @@
 \usepackage[margin=25mm]{geometry}
 \usepackage{amsmath}
 \usepackage{amssymb}
-
+\usepackage{biblatex}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{tabularx}
 \begin{document}
+
 % Cover Page
 \pagebreak
 
@@ -35,7 +39,7 @@
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.75\textwidth]{Graph.png}
-    \caption{Image above demonstrates a photograph of the eletric potentials mapped onto a piece of graph paper.
+    \caption{Image above demonstrates a photograph of the electric potentials mapped onto a piece of graph paper.
             Shows the shape and contour lines in pencil, along with the labelled potentials at various points
             corresponding to the conductive paper in the lab. The black pen lines show the electric field lines, and the
             selected points for the following questions.}
@@ -44,9 +48,31 @@
 
 \section{Strongest Electric Field}
 
-
+The electric field is likely to be strongest at the edges of the triangles, rather than the corners. More specifically, the center of the edges.
+We know that our change in electric potential goes from 4.50 at the edges of the larger triangle, to 0 at the inner triangle.
+The only other part that determines our electric field strength is the distance, and the distance between the 4.50 and 0 is the shortest
+at the middle of the edges, thus resulting in the largest electric field strength.
 
 \section{Electric Field}
+
+\begin{table}[H]
+    \small
+    \caption{Collected measurements of voltages surrounding specific points, and the distances between them.
+            The calculated electric field is also included in the table.\\}
+    \label{aggiungi}
+    \hspace{-15mm} % Moves the table left
+    \begin{tabular}{ccccc}
+    \toprule
+    Point: X, Y & Voltage Point 1 (V) & Voltage Point 2 (V) & Distance Between Points (cm) & Electric Field (N/C)\\
+    \midrule
+    A: 14, 6  & 4.35 & 3.6  & 3.9 & -19.2\\
+    B: 11, 10 & 4.23 & 2.13 & 2.8 & -75.0\\
+    C: 7, 15  & 4.46 & 3.59 & 3.4 & -23.6\\
+    D: 14, 16 & 3.31 & 1.2  & 2.2 & -95.9\\
+    E: 20, 15 & 4.46 & 3.59 & 4.1 & -21.2\\
+    \bottomrule
+    \end{tabular}
+\end{table}
 
 \section{Uncertainty}
 
