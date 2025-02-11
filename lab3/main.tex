@@ -63,17 +63,44 @@ at the middle of the edges, thus resulting in the largest electric field strengt
     \hspace{-15mm} % Moves the table left
     \begin{tabular}{ccccc}
     \toprule
-    Point: X, Y & Voltage Point 1 (V) & Voltage Point 2 (V) & Distance Between Points (cm) & Electric Field (N/C)\\
+    Point: X, Y & Voltage Point 1 (V) & Voltage Point 2 (V) & Distance Between Points (cm) & Electric Field (V/m)\\
     \midrule
-    A: 14, 6  & 4.35 & 3.6  & 3.9 & -19.2\\
+    A: 14, 6  & 4.35 & 3.60  & 3.9 & -19.2\\
     B: 11, 10 & 4.23 & 2.13 & 2.8 & -75.0\\
     C: 7, 15  & 4.46 & 3.59 & 3.4 & -23.6\\
-    D: 14, 16 & 3.31 & 1.2  & 2.2 & -95.9\\
+    D: 14, 16 & 3.31 & 1.20  & 2.2 & -95.9\\
     E: 20, 15 & 4.46 & 3.59 & 4.1 & -21.2\\
     \bottomrule
     \end{tabular}
 \end{table}
 
+\begin{align*}
+    E &= - \frac{\Delta V}{\Delta s} = - \frac{V_1 - V_2}{\Delta s} \\
+    E &= - \frac{4.35 - 3.60}{3.9 / 100} = -19.2 \text{ V/m}
+\end{align*}
+
 \section{Uncertainty}
+We assume that $\delta V_1 = \delta V_2 = 0.01$ V, and $\delta (\Delta s) = 1 \text{ mm} = 0.1 \text{ cm} = 0.001\text{ m}$.
+From there, we know that:
+\begin{align*}
+    \delta E &= - \left |\frac{\Delta V}{\delta s}\right | \sqrt{\left(\frac{\delta(\Delta V)}{\Delta V}\right)^2 \left(\frac{\delta (\Delta s)}{\Delta s}\right)^2} \\
+    &= - \left |\frac{V_1 - V_2}{\delta s}\right | \sqrt{\left(\frac{\delta(V_1 - V_2)}{\Delta V}\right)^2 \left(\frac{\delta (\Delta s)}{\Delta s}\right)^2} \\
+    &= - \left |\frac{V_1 - V_2}{\delta s}\right | \sqrt{\left(\frac{\sqrt{(\delta V_1)^2 + (\delta V_2)^2}}{V_1 - V_2}\right)^2 \left(\frac{\delta (\Delta s)}{\Delta s}\right)^2} \\
+    &= - \left |\frac{4.35 - 3.60}{3.9/100}\right | \sqrt{\left(\frac{\sqrt{(0.01)^2 + (0.01)^2}}{4.35 - 3.60}\right)^2 \left(\frac{0.001}{3.9/100}\right)^2} \\
+    \delta E &\approx -0.00929792 = -9 \times 10^{-3} \text{ V/m}
+\end{align*}
+
+\renewcommand{\refname}{References and Acknowledgements}
+\begin{thebibliography}{9}
+    \bibitem{labmanual} 
+    Department of Physics. \textit{PHYS 126 Lab Manual}. University of Alberta, 2025.
+
+    \bibitem{person}
+    TA assisted with the lab, and provided guidance on the data collection and analysis.
+
+    \bibitem{person}
+    Lab partner Morgan Reinhart assisted with the data collection and analysis.
+    
+\end{thebibliography}
 
 \end{document}

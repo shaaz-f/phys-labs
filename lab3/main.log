@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.3)  10 FEB 2025 19:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.3)  10 FEB 2025 20:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -525,7 +525,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
  (/Users/shaaz/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (36.97548pt too wide) in paragraph at lines 63--75
+Overfull \hbox (38.19215pt too wide) in paragraph at lines 63--75
 []  [] 
  []
 
@@ -538,23 +538,27 @@ Overfull \hbox (36.97548pt too wide) in paragraph at lines 63--75
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 11020 strings out of 475172
- 202764 string characters out of 5765286
- 1023284 words of memory out of 5000000
- 33919 multiletter control sequences out of 15000+600000
- 564389 words of font info for 57 fonts, out of 8000000 for 9000
+ 11034 strings out of 475172
+ 203009 string characters out of 5765286
+ 1033284 words of memory out of 5000000
+ 33931 multiletter control sequences out of 15000+600000
+ 565983 words of font info for 63 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 66i,8n,81p,1241b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on main.pdf (3 pages, 9780723 bytes).
+ 66i,11n,81p,1241b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (3 pages, 9840162 bytes).
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
- 17 compressed objects within 1 object stream
+ 60 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
