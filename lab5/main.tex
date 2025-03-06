@@ -35,7 +35,93 @@
     \end{center}
 \end{titlepage}
 
-\renewcommand{\refname}{References and Acknowledgements}
+\section{Data}
+
+\begin{table}[H]
+\caption{Data for Red Colour: Measurements of length, area, voltage, current, and resistivity}
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+Length (m) & Area (m$^2$) & Voltage (V) & Current (A) & Resistivity ($\Omega$) \\ \hline
+0.082   & $9.08 \times 10^{-4}$   & 2.0   & 0.0167  & 1.33 \\ \hline
+0.059   & $9.08 \times 10^{-4}$   & 1.2   & 0.0167   & 1.11\\ \hline
+0.034   & $9.08 \times 10^{-4}$   & 0.6   & 0.0167   & 0.959 \\ \hline
+0.034   & $6.61 \times 10^{-4}$   & 0.7   & 0.0460   & 0.296 \\ \hline
+0.018   & $6.61 \times 10^{-4}$   & 0.4   & 0.0460   & 0.319 \\ \hline
+0.007   & $6.61 \times 10^{-4}$   & 0.2   & 0.0460   & 0.411 \\ \hline
+\end{tabular}
+\label{tab:red_data}
+\end{table}
+
+\begin{table}[H]
+\caption{Data for Blue Colour: Measurements of length, area, voltage, current, and resistivity}
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+Length (m) & Area (m$^2$) & Voltage (V) & Current (A) & Resistivity ($\Omega$) \\ \hline
+0.091   & $9.08 \times 10^{-4}$   & 2.4   & 0.0170  & 1.41 \\ \hline
+0.059   & $9.08 \times 10^{-4}$   & 1.5   & 0.0170   & 1.36 \\ \hline
+0.034   & $9.08 \times 10^{-4}$   & 0.8   & 0.0170   & 1.26 \\ \hline
+0.031   & $6.61 \times 10^{-4}$   & 0.7   & 0.0460   & 0.324 \\ \hline
+0.017   & $6.61 \times 10^{-4}$   & 0.5   & 0.0460   & 0.423 \\ \hline
+0.008   & $6.61 \times 10^{-4}$   & 0.1   & 0.0460   & 0.180 \\ \hline
+\end{tabular}
+\label{tab:blue_data}
+\end{table}
+\section{Uncertainty}
+As we deform both of the Play-doh, we seem to notice a slight change in the voltage.
+It seems to fluctuate around $\pm 0.2$ V from the original voltage. This number of 0.2 seems
+to stay consistent throughout area, length, and Play-doh colour.
+It does in fact impact the uncertainty in our experiment, as now we have an additional value we are uncertain about,
+increasing the error of our final value.
+\section{Statistics}
+As outlined in section 6.1, we know that our mean $\mu$ is given by the formula:
+\[
+\mu_{\text{red}} = \frac{1}{N} \sum_{i=1}^{N} x_i = 0.736 \, \Omega
+\]
+\[
+\mu_{\text{blue}} = \frac{1}{N} \sum_{i=1}^{N} x_i = 0.825 \, \Omega
+\]
+where $N$ is the number of measurements and $x_i$ represents each individual measurement.
+
+We also know that the standard deviation is given by:
+\[
+\sigma_{\text{red}} = \sqrt{\frac{1}{N} \sum_{i=1}^{N} (x_i - \mu_{\text{red}})^2} = 0.449
+\]
+\[
+\sigma_{\text{blue}} = \sqrt{\frac{1}{N} \sum_{i=1}^{N} (x_i - \mu_{\text{blue}})^2} = 0.573
+\]
+where N is the number of measurements, $x_i$ represents each individual measurement, and $mu$ represents the means found above.
+
+This also gives us our mean error from the formula below:
+\[
+\delta \mu_{\text{red}} = \frac{\sigma_{\text{red}}}{\sqrt{N}} = \frac{0.449}{\sqrt{6}} \approx 0.183
+\]
+\[
+\delta \mu_{\text{blue}} = \frac{\sigma_{\text{blue}}}{\sqrt{N}} = \frac{0.573}{\sqrt{6}} \approx 0.234
+\]
+
+\section{Comparison}
+
+When straight up using the mathematical wonder of subtraction, we get: 
+\[
+\Delta \mu = \mu_{\text{red}} - \mu_{\text{blue}} = 0.736 \, \Omega - 0.825 \, \Omega = -0.089 \, \Omega
+\]
+
+However, when using our uncertainties, we can propogate the error!
+\[
+\delta \Delta \mu = \sqrt{(\delta \mu_{\text{red}})^2 + (\delta \mu_{\text{blue}})^2} = \sqrt{(0.183)^2 + (0.234)^2} \approx 0.294
+\]
+
+Therefore, the difference in means with propagated error is:
+\[
+\mu_{\text{red}} - \mu_{\text{blue}} = -0.089 \, \Omega \pm 0.294 \, \Omega
+\]
+
+Since our difference in means is actually between one propogated error interval, we can say that there is good agreement between the means. In other words
+we can say that the means are pretty similar and there isn't much of a difference.
+
+\renewcommand{\bibname}{5\ \ \References and Acknowledgements}
 \begin{thebibliography}{9}
     \bibitem{labmanual} 
     Department of Physics. \textit{PHYS 126 Lab Manual}. University of Alberta, 2025.
