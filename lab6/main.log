@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.3)  10 MAR 2025 17:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.3)  11 MAR 2025 09:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -525,11 +525,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--60
 
 
 [1]
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
-[]|\OT1/cmr/bx/n/12 Diameter
- []
-
-
 
 [2]
 
@@ -547,15 +542,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 11021 strings out of 475172
- 202785 string characters out of 5765286
+ 11020 strings out of 475172
+ 202770 string characters out of 5765286
  1039318 words of memory out of 5000000
- 33918 multiletter control sequences out of 15000+600000
- 564742 words of font info for 58 fonts, out of 8000000 for 9000
+ 33917 multiletter control sequences out of 15000+600000
+ 564435 words of font info for 57 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 66i,12n,81p,1241b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 66i,13n,81p,1241b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (4 pages, 135450 bytes).
+Output written on main.pdf (4 pages, 135312 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream
