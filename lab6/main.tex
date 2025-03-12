@@ -52,16 +52,16 @@ $y = B_H$, $m = \sqrt{m/e}$, $x = \sqrt{2V}/r$, and $b = B_E$
 There are two main sources of magnetic field within the laboratory actually. There is also Earth's magnetic field as well,
 the cool thing that makes a compass work.
 \section{Earth's Magnetic Field}
-When using LINEST, we find our $B_E$ $\approx 2.34 \times 10^{-8}$ T.
+When using LINEST, we find our $B_E$ $\approx 2.34 \times 10^{-5}$ T.
 When comparing our $B_E$ to the Earth's magnetic field in Edmonton according to NOAA ($56.4 \times 10^{-6}$), we can see that
-the NOAA value is much larger. More specifically, $\frac{56.4 \times 10^{-6}}{2.34 \times 10^{-8}} \approx 2410$ times larger.
+the NOAA value is slightly larger. More specifically, $\frac{56.4 \times 10^{-6}}{2.34 \times 10^{-5}} \approx 2.4$ times larger.
 \\ \\
-\noindent When calculating our Helmholtz magnetic field strength with $I = 0.00313$ A:
+\noindent When calculating our Helmholtz magnetic field strength with $I = 3.13$ A:
 \begin{align*}
-    B_H = \frac{8}{\sqrt{125}R}\mu_0NI = \frac{8}{(0.33)\sqrt{125}}(1.25663706212 \times 10^{-6})(72)(0.00313) \approx 6.13 \times 10^{-7}\text{ T}
+    B_H = \frac{8}{\sqrt{125}R}\mu_0NI = \frac{8}{(0.33)\sqrt{125}}(1.25663706212 \times 10^{-6})(72)(3.13) \approx 6.14 \times 10^{-4}\text{ T}
 \end{align*}
-When dividing the two, we end up getting: $\frac{6.13 \times 10^{-7}}{56.4 \times 10^{-6}} \approx 0.001$, and so, our Helmholtz magnetic
-field strength is approximately 0.001 times larger than the Earth's magentic field
+When dividing the two, we end up getting: $\frac{6.14 \times 10^{-4}}{56.4 \times 10^{-6}} \approx 10.9$, and so, our Helmholtz magnetic
+field strength is approximately 10.9 times larger than the Earth's magentic field strength.
 \section{Helmholtz Orientation}
 The Helmholtz coils are oriented exactly 18 degrees to help negate the effect of Earth's magnetic fields. This helps
 us to conduct our experiment in a controlled manner without any external forces (or fields) impacting our results.
@@ -71,56 +71,56 @@ the roof of the building. We know this because of the right-hand rule. Our foref
 Then, our thumb, when directly perpendicular to the forefinger, goes towards the force, which is to the right of the page.
 Finally as a result, our palm is facing into the page. However, we need to remember that this is the case of a positive charge, so the electron would be opposite, and so
 would be coming OUT of the page., and so our final answer is out of the page.
+
 \section{Table}
-\begin{table}[H]
-    \centering
+
+\begin{table*}[h]\centering
     \caption{Raw experimental data along with the data used to plot our values (the last two columns). Note that the values were calculated using SI values of our measured data.}
-    \begin{tabularx}{\textwidth}{X X X X X X}
-        \toprule
-        \text{Current (mA)} & \text{Diameter (cm)} & \text{Voltage (V)} & \text{$B_H$ ($\times 10^{-7}$ T)} & \text{$\sqrt{2V}/r$} \\
-        \midrule
-        1.43 & 11.5 & 25 & $2.8 \pm 0.1$ & $123 \pm 1$ \\
-        2.01 & 10.3 & 25 & $3.9 \pm 0.1$ & $137 \pm 2$ \\
-        2.26 & 9.00 & 25 & $4.4 \pm 0.1$ & $157 \pm 2$ \\
-        2.62 & 7.80 & 25 & $5.1 \pm 0.2$ & $181 \pm 2$ \\
-        3.13 & 6.50 & 25 & $6.1 \pm 0.2$ & $218 \pm 3$ \\
-        1.96 & 11.5 & 30 & $3.8 \pm 0.1$ & $135 \pm 1$ \\
-        2.18 & 10.3 & 30 & $4.2 \pm 0.1$ & $150 \pm 1$ \\
-        2.45 & 9.00 & 30 & $4.8 \pm 0.2$ & $172 \pm 2$ \\
-        2.78 & 7.80 & 30 & $5.5 \pm 0.2$ & $199 \pm 2$ \\
-        3.22 & 6.50 & 30 & $6.3 \pm 0.2$ & $238 \pm 3$ \\
-        2.14 & 11.5 & 35 & $4.2 \pm 0.1$ & $146 \pm 1$ \\
-        2.36 & 10.3 & 35 & $4.6 \pm 0.2$ & $162 \pm 1$ \\
-        2.62 & 9.00 & 35 & $5.1 \pm 0.2$ & $186 \pm 2$ \\
-        2.98 & 7.80 & 35 & $5.9 \pm 0.2$ & $215 \pm 2$ \\
-        3.47 & 6.50 & 35 & $6.8 \pm 0.2$ & $257 \pm 3$ \\
-        \bottomrule
-    \end{tabularx}
-    \label{tab:experimental_data}
-\end{table}
+    \begin{tabular}{c c c c c} \toprule
+        Current (A) & Diameter (cm) & Voltage (V) & ($B_H \pm 0.02$) $\times 10^{-4}$ T & $\sqrt{2V}/r$ \\ \midrule
+        1.43 & 11.5 & 25 & $2.81$ & $123 \pm 1$ \\
+        2.01 & 10.3 & 25 & $3.94$ & $137 \pm 2$ \\
+        2.26 & 9.00 & 25 & $4.43$ & $157 \pm 2$ \\
+        2.62 & 7.80 & 25 & $5.14$ & $181 \pm 2$ \\
+        3.13 & 6.50 & 25 & $6.14$ & $218 \pm 3$ \\
+        1.96 & 11.5 & 30 & $3.85$ & $135 \pm 1$ \\
+        2.18 & 10.3 & 30 & $4.28$ & $150 \pm 1$ \\
+        2.45 & 9.00 & 30 & $4.81$ & $172 \pm 2$ \\
+        2.78 & 7.80 & 30 & $5.45$ & $199 \pm 2$ \\
+        3.22 & 6.50 & 30 & $6.32$ & $238 \pm 3$ \\
+        2.14 & 11.5 & 35 & $4.20$ & $146 \pm 1$ \\
+        2.36 & 10.3 & 35 & $4.63$ & $162 \pm 1$ \\
+        2.62 & 9.00 & 35 & $5.14$ & $186 \pm 2$ \\
+        2.98 & 7.80 & 35 & $5.85$ & $215 \pm 2$ \\
+        3.47 & 6.50 & 35 & $6.81$ & $257 \pm 3$ \\ \bottomrule
+    \end{tabular}
+\end{table*}
 
 \section{Graph}
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{chart.png}
-    \caption{Graph of $B_H = \sqrt{\frac{m}{e}}\sqrt{2V}/r + B_E$, with slope $\sqrt{m/e} = (2.6 \pm 0.1) \times 10^{-9}$ kg/J and intercept $B_E = (3 \pm 3) \times 10^{-8}$ T.
+    \caption{Graph of $B_H = \sqrt{\frac{m}{e}}\sqrt{2V}/r + B_E$, with slope $\sqrt{m/e} = (2.6 \pm 0.1) \times 10^{-6}$ kg/C and intercept $B_E = (3 \pm 3) \times 10^{-8}$ T.
         We used this to find our e/m ratio.}
     \label{fig:bh_vs_sqrt2v_r}
 \end{figure}
 \section{E/M}
-So we know our slope is $\sqrt{m/e} = (2.6 \pm 0.1) \times 10^{-9}$, so to find our $e/m$ ration,
+So we know our slope is $\sqrt{m/e} = (2.6 \pm 0.1) \times 10^{-6}$, so to find our $e/m$ ration,
 we first square our value and then take the inverse. Our resulting value is:
 \begin{equation*}
-    \frac{e}{m} = \left(\sqrt{\frac{m}{e}}\right)^{-2}\approx (1.5 \pm 0.1) \times 10^{17} J/kg
+    \frac{e}{m} = \left(\sqrt{\frac{m}{e}}\right)^{-2}\approx (1.45 \pm 0.3) \times 10^{11} \text{ C/kg}
 \end{equation*}
 \section{Comparison}
 The currently accepted value for the $e/m$ ratio is $\frac{1.602176634 \times 10^{-19}}{9.1093837015 \times 10^{-31}} \approx 1.76 \times 10^{11} J/kg$.
-Although, we can easily see that compared to our measured value, the accepted $e/m$ ratio is greater than three error intervals away from our experimental value.
+Although, we can easily see that compared to our measured value, the accepted $e/m$ ratio is between zero and one error interval away.
 i.e;
 \begin{equation*}
-    3\delta\left[\left(\frac{e}{m}\right)_{experimental} - \left(\frac{e}{m}\right)_{accepted}\right] < \left(\frac{e}{m}\right)_{experimental} - \left(\frac{e}{m}\right)_{accepted}
+    0 \le \left(\frac{e}{m}\right)_{experimental} - \left(\frac{e}{m}\right)_{accepted} \le \delta\left[\left(\frac{e}{m}\right)_{experimental} - \left(\frac{e}{m}\right)_{accepted}\right]
 \end{equation*} 
-And so we can conclude that the numbers do not agree.
+\begin{equation*}
+    0 \le 0.3 \times 10^{11} \le 0.3 \times 10^{11}
+\end{equation*}
+And so we can conclude that there is good agreement between the numbers.
 \renewcommand{\bibname}{5\ \ \References and Acknowledgements}
 \begin{thebibliography}{9}
     \bibitem{labmanual} 
