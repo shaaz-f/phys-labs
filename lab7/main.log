@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.3)  15 MAR 2025 14:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.3)  19 MAR 2025 12:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -511,8 +511,39 @@ Package biblatex Info: Reference segment=0 on input line 11.
 [1
 
 {/Users/shaaz/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<CFL 1 Graph.jpg, id=7, 256.96pt x 192.72pt>
+File: CFL 1 Graph.jpg Graphic file (type jpg)
+<use CFL 1 Graph.jpg>
+Package pdftex.def Info: CFL 1 Graph.jpg  used on input line 43.
+(pdftex.def)             Requested size: 212.41261pt x 159.3106pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
+ (/Users/shaaz/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
+ (/Users/shaaz/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<CFL 2 Graph.jpg, id=8, 256.96pt x 192.72pt>
+File: CFL 2 Graph.jpg Graphic file (type jpg)
+<use CFL 2 Graph.jpg>
+Package pdftex.def Info: CFL 2 Graph.jpg  used on input line 50.
+(pdftex.def)             Requested size: 212.41261pt x 159.3106pt.
+<Incandescent Graph.jpg, id=9, 256.96pt x 192.72pt>
+File: Incandescent Graph.jpg Graphic file (type jpg)
+<use Incandescent Graph.jpg>
+Package pdftex.def Info: Incandescent Graph.jpg  used on input line 58.
+(pdftex.def)             Requested size: 212.41261pt x 159.3106pt.
+<LED Graph.jpg, id=10, 256.96pt x 192.72pt>
+File: LED Graph.jpg Graphic file (type jpg)
+<use LED Graph.jpg>
+Package pdftex.def Info: LED Graph.jpg  used on input line 65.
+(pdftex.def)             Requested size: 212.41261pt x 159.3106pt.
 
-[1] (./main.aux)
+
+[1 <./CFL 1 Graph.jpg> <./CFL 2 Graph.jpg> <./Incandescent Graph.jpg> <./LED Graph.jpg>]
+
+[2] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -526,18 +557,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 10961 strings out of 475172
- 201779 string characters out of 5765286
- 1020297 words of memory out of 5000000
- 33877 multiletter control sequences out of 15000+600000
- 560088 words of font info for 40 fonts, out of 8000000 for 9000
+ 11048 strings out of 475172
+ 203409 string characters out of 5765286
+ 1025385 words of memory out of 5000000
+ 33945 multiletter control sequences out of 15000+600000
+ 564435 words of font info for 57 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 66i,5n,81p,1241b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (2 pages, 45320 bytes).
+ 66i,8n,81p,1241b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (3 pages, 410350 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
- 15 compressed objects within 1 object stream
+ 48 PDF objects out of 1000 (max. 8388607)
+ 26 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
