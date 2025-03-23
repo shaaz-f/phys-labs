@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.3)  20 MAR 2025 16:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.3)  23 MAR 2025 11:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -519,15 +519,33 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
  (/Users/shaaz/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (7.06886pt too wide) in paragraph at lines 43--71
+Overfull \hbox (27.97668pt too wide) in paragraph at lines 44--71
+ [][] 
+ []
+
+
+Overfull \hbox (27.97668pt too wide) in paragraph at lines 76--103
  [][] 
  []
 
 
 
 [1]
+<strontium.png, id=14, 602.25pt x 372.39125pt>
+File: strontium.png Graphic file (type png)
+<use strontium.png>
+Package pdftex.def Info: strontium.png  used on input line 120.
+(pdftex.def)             Requested size: 212.41261pt x 131.34464pt.
+<cesium.png, id=16, 602.25pt x 372.39125pt>
+File: cesium.png Graphic file (type png)
+<use cesium.png>
+Package pdftex.def Info: cesium.png  used on input line 127.
+(pdftex.def)             Requested size: 212.41261pt x 131.34464pt.
 
-[2] (./main.aux)
+
+[2]
+
+[3 <./strontium.png> <./cesium.png>] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -541,18 +559,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 11017 strings out of 475172
- 202728 string characters out of 5765286
- 1036318 words of memory out of 5000000
- 33914 multiletter control sequences out of 15000+600000
+ 11040 strings out of 475172
+ 203155 string characters out of 5765286
+ 1035383 words of memory out of 5000000
+ 33937 multiletter control sequences out of 15000+600000
  564435 words of font info for 57 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 66i,15n,81p,1241b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 66i,16n,81p,1241b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/shaaz/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (3 pages, 98716 bytes).
+Output written on main.pdf (4 pages, 145767 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 67 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
